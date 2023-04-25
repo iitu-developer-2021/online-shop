@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a38257af-471d-4099-bdb5-bc761223e959" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/_product-new.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/html/_product-slider.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/icon-fonts/arrow-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/telegram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/viber.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/whatsapp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/main-page/product-card/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/rub.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/catalog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/product.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/version.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_footer.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_header.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/_popup.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_popup.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/files/forms/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/forms/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/files/forms/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/forms/range.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/files/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/files/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/sliders.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/libs/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/quantity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/quantity.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/range.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/rating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/fonts/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/fonts/icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NaRoRCtS2Jw8U4D1lvfuzmr88l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/ANamiyaly/Desktop/flsStartTemplate/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/ANamiyaly/Desktop/flsStartTemplate/node_modules/prettier",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/img/main-page/product-card" />
+      <recent name="$PROJECT_DIR$/src/img/main-page/main-block" />
+      <recent name="$PROJECT_DIR$/src/img/main-page" />
+      <recent name="$PROJECT_DIR$/src/fonts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/img/main-page/main-block" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/flsStartTemplate/src/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a38257af-471d-4099-bdb5-bc761223e959" name="Changes" comment="" />
+      <created>1679900380704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679900380704</updated>
+      <workItem from="1679900381806" duration="1993000" />
+      <workItem from="1679907833528" duration="2282000" />
+      <workItem from="1679990362545" duration="3936000" />
+      <workItem from="1680000258138" duration="2551000" />
+      <workItem from="1680003018832" duration="2129000" />
+      <workItem from="1680165246222" duration="3803000" />
+      <workItem from="1680169702164" duration="66000" />
+      <workItem from="1680169770635" duration="9131000" />
+      <workItem from="1680243932401" duration="9310000" />
+      <workItem from="1680575242884" duration="7364000" />
+      <workItem from="1680684525559" duration="4809000" />
+      <workItem from="1680894557196" duration="10198000" />
+      <workItem from="1680979592795" duration="7989000" />
+      <workItem from="1681104512648" duration="599000" />
+      <workItem from="1681287318069" duration="9285000" />
+      <workItem from="1681358940223" duration="626000" />
+      <workItem from="1681385542349" duration="6534000" />
+      <workItem from="1681407903099" duration="6307000" />
+      <workItem from="1681462346529" duration="9516000" />
+      <workItem from="1681723027874" duration="14401000" />
+      <workItem from="1681803819289" duration="22000" />
+      <workItem from="1681887907917" duration="5547000" />
+      <workItem from="1681974900931" duration="791000" />
+      <workItem from="1682137682673" duration="21208000" />
+      <workItem from="1682324815638" duration="478000" />
+      <workItem from="1682401426568" duration="15691000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

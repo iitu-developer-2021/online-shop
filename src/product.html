@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/_head.htm',{
+	"title":"Карточкуа товара"
+	})
+	<body>
+		<div class="wrapper">
+			@@include('html/_header.htm',{})
+			<main class="page">
+				<div class="page__header">
+					<div class="page__container">
+						<nav class="page__breadcrumbs breadcrumbs">
+							<ul class="breadcrumbs__list">
+								<li class="breadcrumbs__item">
+									<a href="#" class="breadcrumbs__link">Главная</a>
+								</li>
+								<li class="breadcrumbs__item">
+									<a href="#" class="breadcrumbs__link">Разделочные ножи</a>
+								</li>
+								<li class="breadcrumbs__item">
+									<span class="breadcrumbs__current">Нож Снегирь</span>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="product">
+					<div class="product__container">
+						 <div class="product__main main-product">
+							 <div class="main-product__images card-images-product">
+								 <div class="card-images-product__slider swiper-container">
+									 <div class="card-images-product__swiper swiper-wrapper">
+										 <div class="card-images-product__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="card-images-product__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="card-images-product__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="card-images-product__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="card-images-product__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+									 </div>
+								 </div>
+								 <div class="images-product__thumbs thumbs-images swiper-container">
+									 <div class="thumbs-images__swiper swiper-wrapper">
+										 <div class="thumbs-images__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="thumbs-images__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="thumbs-images__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="thumbs-images__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+										 <div class="thumbs-images__slide-ibg swiper-slide">
+											 <img src="@img/main-page/product/01.jpg" alt="Картинка">
+										 </div>
+									 </div>
+								 </div>
+							 </div>
+							 <div class="main-product__body body-product">
+								<div class="body-product__header header-product">
+									<div class="header-product__line">
+										<h1 class="header-product__title">Нож Снегирь </h1>
+										<a href="#" class="header-product__link _icon-scales"></a>
+										<a href="#" class="header-product__link _icon-favourite"></a>
+									</div>
+
+									<div class="header-product__rating rating rating--set">
+										<div class="rating__body">
+											<div class="rating__active"></div>
+											<div class="rating__items">
+												<input type="radio" class="rating__item" value="1" name="rating">
+												<input type="radio" class="rating__item" value="2" name="rating">
+												<input type="radio" class="rating__item" value="3" name="rating">
+												<input type="radio" class="rating__item" value="4" name="rating">
+												<input type="radio" class="rating__item" value="5" name="rating">
+											</div>
+										</div>
+										<div class="rating__value">3.6</div>
+									</div>
+								</div>
+								 <div class="body-product__table table-product">
+									 <div class="table-product__label">Артикул:</div>
+									 <div class="table-product__value">AF0000001952</div>
+
+									 <div class="table-product__label">Торговая марка:</div>
+									 <div class="table-product__value">WUESTHOF (Германия)</div>
+
+									 <div class="table-product__label">Серия:</div>
+									 <div class="table-product__value">Ножи серии Classic Ikon</div>
+
+									 <div class="table-product__label">Бонусные баллы::</div>
+									 <div class="table-product__value">38</div>
+								 </div>
+								 <div class="body-product__options options-product">
+									 <div class="options-product__label">Сталь</div>
+									 <div class="options-product__value">
+										 <select name="form[]" class="control">
+											 <option value="1" selected>По популярности</option>
+											 <option value="2">По цене</option>
+											 <option value="3">По убыванию</option>
+											 <option value="4">По возрастанию</option>
+										 </select>
+									 </div>
+								 </div>
+
+								 <div class="body-product__actions actions-product">
+									 <div class="actions-product__price">3 865 </div>
+									 <div class="actions-product__row">
+										 <div data-quantity class="actions-product__quantity quantity">
+											 <button data-quantity-plus type="button" class="quantity__button quantity__button_plus"></button>
+											 <div class="quantity__input">
+												 <input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+											 </div>
+											 <button data-quantity-minus type="button" class="quantity__button quantity__button_minus"></button>
+										 </div>
+										 <div class="actions-product__buttons">
+											 <a href="#" class="actions-product__cart button"><span class="_icon-cart">В корзину</span></a>
+											 <a href="#" class="button button--black actions-product__cart"><span>Купить в 1 клик</span></a>
+										 </div>
+									 </div>
+								 </div>
+							 </div>
+						 </div>
+						<div data-tabs="992" class="product__info product-info">
+							<nav data-tabs-titles class="product-info__navigation">
+								<button type="submit" class="product-info__title _tab-active">Таб №1</button>
+								<button type="submit" class="product-info__title">Таб №2</button>
+								<button type="submit" class="product-info__title">Таб №3</button>
+							</nav>
+							<div data-tabs-body class="product-info__content">
+								<div class="product-info__body">
+									1 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem blanditiis culpa cumque debitis ducimus, esse est hic incidunt itaque laboriosam libero mollitia nihil, quia quibusdam quis quo sequi, sit.
+								</div>
+								<div class="product-info__body">
+									2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur consectetur deserunt, dolores error fugiat fugit, ipsa itaque iure praesentium quae quaerat quia quidem ratione reiciendis rerum tenetur ut veniam?
+								</div>
+								<div class="product-info__body">
+									3 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aspernatur consectetur deserunt, dolores error fugiat fugit, ipsa itaque iure praesentium quae quaerat quia quidem ratione reiciendis rerum tenetur ut veniam?
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			@@include('html/_footer.htm',{})
+			@@include('html/_popup.htm',{})
+		</div>
+		@@include('html/_js.htm',{})
+	</body>
+</html>

@@ -144,6 +144,34 @@
 	}
 	&._select-checkbox {
 	}
+
+	&--control{
+
+		.select__title{
+			border: 1px solid rgba(4, 4, 4, 0.3);
+			border-radius: 3px;
+		}
+
+		.select__value{
+			height: rem(40);
+			color: rgba(0, 0, 0, .5);
+
+			&::after{
+				font-size: rem(8);
+				@extend %ic;
+				content: "\e900";
+			}
+		}
+
+		.select__option{
+			color: rgba(0, 0, 0, .5);
+			@media(any-hover: hover){
+			    &:hover{
+					color: #000;
+			    }
+			}
+		}
+	}
 }
 
 // Тег

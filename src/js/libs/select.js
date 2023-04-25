@@ -131,6 +131,7 @@ class SelectConstructor {
 		// Створюємо оболонку
 		let selectItem = document.createElement("div");
 		selectItem.classList.add(this.selectClasses.classSelect);
+		selectItem.classList.add('select--control');
 		// Виводимо оболонку перед оригінальним селектом
 		originalSelect.parentNode.insertBefore(selectItem, originalSelect);
 		// Поміщаємо оригінальний селект в оболонку

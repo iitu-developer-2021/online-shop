@@ -1,1 +1,486 @@
 // Заголовки, загальні БЕМ блоки та інше...
+
+.product-slider {
+  &__container {
+  }
+
+  &__header {
+    
+    &:not(:last-child){
+      @include adaptiveValue("margin-bottom", 50, 30)
+    }
+    
+    @media (min-width: $tablet) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: rem(20);
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: rem(30);
+    line-height: math.div(46, 30);
+    letter-spacing: 0.05em;
+  }
+
+  &__more {
+    font-weight: 600;
+    font-size: rem(18);
+    color: rgba(20, 20, 20, 0.58);
+    line-height: math.div(46, 18);
+    letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    gap: em(15, 18);
+    transition: .2s color ease 0s;
+
+    &::after{
+      @extend %ic;
+      content: "\e900";
+      font-size: em(10, 18);
+      transform: rotate(-90deg);
+      color: $mainOrange;
+    }
+
+    @media (any-hover: hover) {
+
+      &:hover{
+        color: rgba(20, 20, 20, 1);
+      }
+    }
+  }
+
+  &__slider {
+    padding: rem(15) rem(20);
+    margin: 0 rem(-20);
+  }
+
+  &__swiper {
+    @include adaptiveValue("margin-bottom", 50, 30)
+  }
+
+  &__dots{
+
+  }
+}
+
+.dots{
+  display: flex;
+  gap: rem(15);
+  justify-content: center;
+  transform: translate(0, 10%);
+
+  @media (max-width: $tablet) {
+    display: none;
+  }
+
+  .swiper-pagination-bullet{
+    cursor: pointer;
+    height: rem(30);
+    width: rem(18);
+    position: relative;
+    transition: .3s ease all 0s;
+
+    &::after{
+      content: "";
+      height:rem(2);
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: #898989;
+    }
+
+    &::before{
+      content: "";
+      position: absolute;
+      background-color: $mainOrange;
+      width: rem(10);
+      height: rem(10);
+      top: 50%;
+      left: 0;
+      border-radius: 50%;
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+  }
+
+  .swiper-pagination-bullet-active{
+    width: rem(30);
+
+    &::after{
+      background-color: $mainOrange;
+    }
+
+    &::before{
+      opacity: 1;
+      left: rem(20);
+      transition: 1s linear left 0s;
+    }
+  }
+}
+._icon-spoller-arrow {
+}
+
+.product-card {
+  background-color: #fff;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  transition: .3s box-shadow linear 0s;
+  position: relative;
+
+  @media (any-hover: hover) {
+
+    &:hover{
+      box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  &__sale{
+    position: absolute;
+    top: rem(20);
+    left: 0;
+    color: #fff;
+    background-color: $mainOrange;
+    padding: rem(6) rem(22);
+    z-index: 2;
+    pointer-events: none;
+  }
+
+  &__image {
+    padding-bottom: percent(270, 240);
+    @include adaptiveValue("padding-top", 25, 15);
+    @include adaptiveValue("padding-bottom", 25, 15);
+    @include adaptiveValue("padding-left", 50, 15);
+    @include adaptiveValue("padding-right", 50, 15);
+  }
+
+  &__item-image-ibg{
+    padding-bottom: percent(240, 270);
+    display: block;
+  }
+
+  &__body {
+    padding: rem(20);
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    flex: 1 1 auto;
+    font-weight: 600;
+    font-size: rem(20);
+    line-height: math.div(34, 20);
+    
+    &:not(:last-child){
+      margin-bottom: em(15, 20);
+    }
+
+    @media (any-hover: hover) {
+
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__link-title {
+  }
+
+  &__info {
+
+    &:not(:last-child){
+      margin-bottom: em(10, 16);
+    }
+  }
+
+  &__rating {
+    &:not(:last-child){
+      margin-bottom: rem(26);
+    }
+  }
+
+  &__footer {
+    border-top: 1px solid rgba(20, 20, 20, 0.5);
+    padding: rem(20) 0 rem(20) 0;
+    display: flex;
+    align-items: center;
+    gap: rem(15)
+  }
+
+  &__price {
+    flex: 1 1 auto;
+    font-weight: 600;
+    font-size: rem(20);
+    line-height: math.div(34, 20);
+  }
+
+  &__favourite,
+  &__compare {
+    font-size: rem(24);
+  transition: .3s color linear 0s;
+
+    @media (any-hover: hover) {
+      &:hover{
+        color: $mainOrange;
+      }
+    }
+  }
+
+  &__favourite {
+
+  }
+
+  &__cart {
+    font-size: rem(18);
+    width: 100%;
+
+    span{
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+      justify-content: center;
+
+      &::before{
+        margin: 0 0 0 rem(16);
+      }
+    }
+  }
+}
+
+.info-product-card {
+  color: #ABABAB;
+  font-weight: 600;
+  font-size: rem(16);
+  line-height: math.div(34, 16);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: rem(10);
+
+  &__size {
+  }
+
+  &__materials {
+    text-align: right;
+  }
+}
+
+
+.products-new {
+  background: url("@img/main-page/new-products/bg.jpg") bottom / cover no-repeat;
+  @include adaptiveValue("padding-top", 62, 15);
+  @include adaptiveValue("padding-bottom", 25, 15);
+  position: relative;
+
+  &--no-top{
+    padding-top: 0;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top: rem(-1);
+    right: 0;
+    width: percent(1025,1920);
+    height: rem(44);
+    background-color: #fff;
+  }
+  &__container {
+    display: grid;
+    row-gap: 30px;
+
+    @media (min-width: $tablet) {
+      grid-template-columns: rem(400) 1fr;
+      align-items: start;
+    }
+  }
+
+  &__body{
+    @include adaptiveValue("padding-right", 70, 30, 1630, 992, 1);
+    position: relative;
+
+    &::before{
+      content: "";
+      background: url('@img/new-products/bg.jpg') 0 0 no-repeat;
+      width: 100vw;
+      height: 100%;
+    }
+  }
+
+  &__title {
+    font-weight: 700;
+    font-size: rem(30);
+    line-height: math.div(46, 30);
+    color: #fff;
+
+    &:not(:last-child){
+        margin-bottom:em(30, 30)
+    }
+  }
+
+  &__text {
+    font-weight: 500;
+    font-size: rem(18);
+    line-height: math.div(27, 18);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+
+    &:not(:last-child){
+        @include adaptiveValue("margin-bottom", 60, 20)
+    }
+  }
+
+  &__link {
+  }
+
+  &__content{
+    min-width: 0;
+
+    @media (min-width: $tablet) {
+      padding: rem(37) 0 0 0;
+    }
+  }
+
+  &__slider {
+
+  }
+
+  &__swiper {
+    &:not(:last-child){
+      @include adaptiveValue("margin-bottom", 50, 20)
+    }
+  }
+
+  &__slide {
+  }
+}
+
+.link-arrow{
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  color: $mainOrange;
+  font-size: rem(20);
+  font-weight: 600;
+
+  &::before{
+    margin: 0 0 0 em(15, 20);
+    transform: rotate(-90deg);
+    font-size: rem(8);
+
+    @media(any-hover: hover){
+        &:hover{
+          span{
+            text-decoration: underline;
+          }
+        }
+    }
+  }
+}
+
+.breadcrumbs {
+  white-space: nowrap;
+  overflow: auto;
+  height: rem(22);
+
+  &__list {
+    display: flex;
+    &:not(:last-child){
+      margin-bottom: rem(30)
+    }
+  }
+
+  &__item {
+  }
+
+  &__link {
+    opacity: 0.5;
+    display: flex;
+    align-items: center;
+
+    &::after{
+      content: "\e900";
+      @extend %ic;
+      transform: rotate(-90deg);
+      font-size: rem(6);
+      margin: 0 em(10, 6);
+    }
+  }
+
+  &__current {
+    color: #E8AA31;
+  }
+}
+
+
+.title{
+  font-weight: 700;
+  font-size: rem(24);
+  line-height: math.div(28, 24);
+  &:not(:last-child){
+      margin-bottom: em(25, 24)
+  }
+}
+
+.pagging {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: rem(30);
+
+  &__arrow {
+    color: $mainOrange;
+
+    &::before{
+      font-size: rem(10);
+      transform: rotate(-90deg);
+    }
+
+    &:disabled{
+      color:rgba(0, 0, 0, 0.12);
+    }
+    &--left {
+      transform: rotate(-180deg);
+    }
+
+    &--right {
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: rem(13)
+  }
+
+  &__item {
+  }
+
+  &__link {
+    width: rem(34);
+    height: rem(34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+    &._active{
+      background-color: $mainOrange;
+      color: #fff;
+    }
+
+    @media(any-hover: hover){
+        &:hover{
+          background-color: $mainOrange;
+          color: #fff;
+        }
+    }
+  }
+}
+
+._icon-arrow-down {
+}

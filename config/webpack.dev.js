@@ -126,6 +126,7 @@ const config = {
 	plugins: [
 		...htmlPages,
 		...pugPages.map(pugPage => new HtmlWebpackPlugin({
+			inject: true,
 			minify: false,
 			template: `${srcFolder}/${pugPage}`,
 			filename: `${pugPage.replace(/\.pug/, '.html')}`

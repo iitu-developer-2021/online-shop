@@ -3,7 +3,7 @@
 @import "base/forms/forms";
 
 // Стилі попапів
-// @import "base/popup";
+@import "base/popup";
 
 // Стилі спойлерів
 // @import "base/spollers";
@@ -49,7 +49,7 @@
 		object-fit: cover;
 	}
 }
-[class*="-ibg_contain"] {
+[class*="-ibg--contain"] {
 	img {
 		object-fit: contain;
 	}

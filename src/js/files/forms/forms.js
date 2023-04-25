@@ -275,7 +275,7 @@ export function formRating() {
 
 			setRatingActiveWidth();
 
-			if (rating.classList.contains('rating_set')) {
+			if (rating.classList.contains('rating--set')) {
 				setRating(rating);
 			}
 		}

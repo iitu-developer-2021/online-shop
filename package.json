@@ -59,7 +59,6 @@
 		"smooth-scroll": "latest",
 		"string-replace-loader": "latest",
 		"style-loader": "latest",
-		"swiper": "latest",
 		"terser-webpack-plugin": "latest",
 		"tippy.js": "latest",
 		"transform-runtime": "0.0.0",
@@ -74,6 +73,7 @@
 	"dependencies": {
 		"gulp-cheerio": "^1.0.0",
 		"isotope-layout": "^3.0.6",
-		"simplebar": "latest"
+		"simplebar": "latest",
+		"swiper": "^9.2.0"
 	}
 }
