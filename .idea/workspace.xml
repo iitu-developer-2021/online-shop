@@ -5,54 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38257af-471d-4099-bdb5-bc761223e959" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/catalog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/_product-new.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/html/_product-slider.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icon-fonts/arrow-back.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/telegram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/viber.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/icons/socials/whatsapp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main-page/main-block/icons/4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/main-page/product-card/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/rub.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/search.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/catalog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/version.json" beforeDir="false" afterPath="$PROJECT_DIR$/config/version.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_footer.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_footer.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_header.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_header.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/_popup.htm" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/_popup.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/files/forms/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/forms/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/files/forms/range.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/forms/range.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/files/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/functions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/files/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/files/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/files/sliders.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/libs/select.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/libs/select.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/forms.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/quantity.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/quantity.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/range.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/rating.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/base/forms/select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/base/forms/select.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/fonts/icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/fonts/icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +103,7 @@
       <workItem from="1681974900931" duration="791000" />
       <workItem from="1682137682673" duration="21208000" />
       <workItem from="1682324815638" duration="478000" />
-      <workItem from="1682401426568" duration="15691000" />
+      <workItem from="1682401426568" duration="16771000" />
     </task>
     <servers />
   </component>
